@@ -1,3 +1,6 @@
+const info = document.querySelector("p").textContent;
+console.log(info);
+
 function alertMe() {
     window.alert("Hi");
 }
