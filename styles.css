@@ -1,0 +1,61 @@
+body {
+    background-color: indianred;
+    font-family: 'monospace', Courier, monospace;
+}
+
+.container {
+    margin-top: 10vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darkslategray;
+    background-color: darkslategray;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+.item_label {
+    font-size: 2rem;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.item {
+    background-color: antiquewhite;
+    border-radius: 25px;
+    padding: 0.2rem;
+}
+
+.button {
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    padding: 0.6rem;
+}
+
+.sign_up {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 1rem;
+    text-align: start;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+

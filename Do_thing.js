@@ -1,5 +1,5 @@
-const info = document.querySelector("p").textContent;
-console.log(info);
+const info = document.querySelector("p");
+console.log(info.textContent);
 
 function alertMe() {
     window.alert("Hi");
